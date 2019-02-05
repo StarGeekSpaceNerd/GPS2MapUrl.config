@@ -1,7 +1,22 @@
 GPS2MapUrl.config
 =================
 
-[TOC]
+<!-- toc -->
+
+- [Install](#install)
+- [Tag definitions](#tag-definitions)
+  * [GoogleMapsUrl](#googlemapsurl)
+  * [BingMapsUrl](#bingmapsurl)
+  * [OpenStreetMapsUrl](#openstreetmapsurl)
+  * [MapquestMapsUrl](#mapquestmapsurl)
+  * [YandexMapsUrl](#yandexmapsurl)
+- [User Parameters](#user-parameters)
+  * [Zoom](#zoom)
+- [Notes](#notes)
+- [Revisions](#revisions)
+- [References:](#references)
+
+<!-- tocstop -->
 
 GPS2MapUrl.config is a user-defined config file for [exiftool](https://www.sno.phy.queensu.ca/~phil/exiftool/).  It creates composite tag definitions to create URLs for various map websites based upon GPS coordinates embedded in the file.
 
@@ -69,7 +84,4 @@ Example:
 
 - Ver. 1.0 - 2019-02-04 - Bryan K. Williams (aka StarGeek) Created
 
-## References:	
-
-0
-
+## References:
