@@ -28,7 +28,9 @@ Place this file in the same directory as exiftool.exe and start the command with
 
 ### GoogleMapsUrl
 
-This will create a link to Google maps based upon this StackOverflow answer https://stackoverflow.com/a/32807681/3525475
+This will create a link to Google maps based upon this StackOverflow answer 
+
+https://stackoverflow.com/a/32807681/3525475
 
 Example:
 
@@ -57,7 +59,7 @@ This will create a link to Mapquest maps
 
 Example:
 
-``exiftool -config Map_URL_From_GPS.config -BingMapsUrl FILE`
+`exiftool -config Map_URL_From_GPS.config -BingMapsUrl FILE`
 
 ###	YandexMapsUrl
 This will create a link to Yandex maps 
@@ -85,3 +87,6 @@ Example:
 - Ver. 1.0 - 2019-02-04 - Bryan K. Williams (aka StarGeek) Created
 
 ## References:
+
+http://u88.n24.queensu.ca/exiftool/forum/index.php/topic,9862.0.html
+
