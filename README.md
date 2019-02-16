@@ -51,7 +51,7 @@ This will create a link to OpenStreetMap.org maps
 
 Example:
 
-`exiftool -config Map_URL_From_GPS.config -BingMapsUrl FILE`
+`exiftool -config Map_URL_From_GPS.config -OpenStreetMapsUrl FILE`
 
 ### MapquestMapsUrl
 
@@ -59,14 +59,14 @@ This will create a link to Mapquest maps
 
 Example:
 
-`exiftool -config Map_URL_From_GPS.config -BingMapsUrl FILE`
+`exiftool -config Map_URL_From_GPS.config -MapquestMapsUrl FILE`
 
 ###	YandexMapsUrl
 This will create a link to Yandex maps 
 
 Example:
 
-`exiftool -config Map_URL_From_GPS.config -BingMapsUrl FILE`
+`exiftool -config Map_URL_From_GPS.config -YandexMapsUrl FILE`
 
 ## User Parameters
 
