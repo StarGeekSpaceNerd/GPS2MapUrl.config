@@ -34,7 +34,7 @@ https://stackoverflow.com/a/32807681/3525475
 
 Example:
 
-`exiftool -config Map_URL_From_GPS.config -GoogleMapsUrl FILE`
+`exiftool -config GPS2MapUrl.config -GoogleMapsUrl FILE`
 
 ### BingMapsUrl
 
@@ -44,14 +44,14 @@ https://docs.microsoft.com/en-us/bingmaps/articles/create-a-custom-map-url
 
 Example:
 
-`exiftool -config Map_URL_From_GPS.config -BingMapsUrl FILE`
+`exiftool -config GPS2MapUrl.config -BingMapsUrl FILE`
 
 ###	OpenStreetMapsUrl
 This will create a link to OpenStreetMap.org maps 
 
 Example:
 
-`exiftool -config Map_URL_From_GPS.config -OpenStreetMapsUrl FILE`
+`exiftool -config GPS2MapUrl.config -OpenStreetMapsUrl FILE`
 
 ### MapquestMapsUrl
 
@@ -59,14 +59,14 @@ This will create a link to Mapquest maps
 
 Example:
 
-`exiftool -config Map_URL_From_GPS.config -MapquestMapsUrl FILE`
+`exiftool -config GPS2MapUrl.config -MapquestMapsUrl FILE`
 
 ###	YandexMapsUrl
 This will create a link to Yandex maps 
 
 Example:
 
-`exiftool -config Map_URL_From_GPS.config -YandexMapsUrl FILE`
+`exiftool -config GPS2MapUrl.config -YandexMapsUrl FILE`
 
 ## User Parameters
 
@@ -76,7 +76,7 @@ This user parameter will add the level of zoom for the URL using the exiftool [-
 
 Example:
 
-`exiftool -config Map_URL_From_GPS.config -userparam Zoom=16 -BingMapsUrl FILE`
+`exiftool -config GPS2MapUrl.config -userparam Zoom=16 -BingMapsUrl FILE`
 
 ## Notes
 
