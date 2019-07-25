@@ -81,10 +81,12 @@ Example:
 ## Notes
 
 - Bing Maps doesn't allow for the creation of push pins without an API key.  This tag will use the collection `sp=point` option using a dot as the label.
+- Requires exiftool version to be before 11.54 or later than 11.57
 
 ## Revisions
 
 - Ver. 1.0 - 2019-02-04 - Bryan K. Williams (aka StarGeek) Created
+- Ver. 1.1 - 2019-07-25 - Changed undef to empty string, fixed examples
 
 ## References:
 
