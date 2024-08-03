@@ -46,7 +46,7 @@ Example:
 
 `exiftool -config GPS2MapUrl.config -BingMapsUrl FILE`
 
-###	OpenStreetMapsUrl
+### OpenStreetMapsUrl
 This will create a link to OpenStreetMap.org maps 
 
 Example:
@@ -61,7 +61,7 @@ Example:
 
 `exiftool -config GPS2MapUrl.config -MapquestMapsUrl FILE`
 
-###	YandexMapsUrl
+### YandexMapsUrl
 This will create a link to Yandex maps 
 
 Example:
@@ -80,15 +80,16 @@ Example:
 
 ## Notes
 
-- Bing Maps doesn't allow for the creation of push pins without an API key.  This tag will use the collection `sp=point` option using a dot as the label.
+- Bing Maps doesn't allow for the creation of push pins without an API key.
 - Requires exiftool version to be before 11.54 or later than 11.57
 
 ## Revisions
 
 - Ver. 1.0 - 2019-02-04 - Bryan K. Williams (aka StarGeek) Created
 - Ver. 1.1 - 2019-07-25 - Changed undef to empty string, fixed examples
+- Ver. 1.2 - 2024-08-03 - Fixed MapQuest URL, note that MapQuest seems to have problems with some GPS Coordinates. For example, coordinates 40.6892, -74.0445 will not be found in MapQuest. Disabled Zoom in MapQuest as it no longer works. Removed "sp=point" from the Bing URL as it is ignored, Added default level 16 for Bing because without it Bing's default level of zoom shows to wide of an area
 
 ## References:
 
-http://u88.n24.queensu.ca/exiftool/forum/index.php/topic,9862.0.html
+https://exiftool.org/forum/index.php?msg=51226
 
